@@ -32,6 +32,7 @@ The optional -overlay flag places subsequent images on top of each other (recomm
 If your images contain multiple faces, a window will appear with the faces annotated and you will be prompted to enter the index of the correct face on the command line.
 
 At this point you should inspect the output images and re-run the alignment with new parameters until you're satisfied with the result.
+
 3. Morph the sequence with
 ```
 python face-movie/main.py -morph -images <ALIGN_OUTPUT> -td <TRANSITION_DUR> 
